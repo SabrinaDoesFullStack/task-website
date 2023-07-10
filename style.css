@@ -1,17 +1,27 @@
 .banner-ki{
   display: flex;
-  text-align: center;
-  flex-direction: row-reverse;
-  padding: 150px;
-  margin: 0px;
-}
-.banner-containt{
-  display: flex;
-  text-align: center;
-  flex-direction: row-reverse;
+  justify-content: space-around;
+  height: 700px;
+  align-items: center;
   background-image: url(images/banner/banner3.png);
   background-repeat: no-repeat;
-  padding: 150px;
-  height: 700px;
-  
+  padding: 50px;
 }
+.banner-containt{
+  padding: 50px;
+  text-align: right;
+  padding-left: 350px;
+  color: white;
+}
+.banner-head{
+  font-size: 50px;
+  font-weight: bolder;
+  padding-left: 400px;
+}
+.btn-primary{
+  padding: 15px;
+  color: blue;
+  background-color: white;
+  border: none;
+}
+
