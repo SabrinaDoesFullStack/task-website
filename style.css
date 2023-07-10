@@ -1,3 +1,4 @@
+/* start header section */
 .banner-ki{
   display: flex;
   justify-content: space-around;
@@ -6,6 +7,9 @@
   background-image: url(images/banner/banner3.png);
   background-repeat: no-repeat;
   padding: 50px;
+}
+*{
+  margin: 0;
 }
 .banner-containt{
   padding: 50px;
@@ -23,5 +27,50 @@
   color: blue;
   background-color: white;
   border: none;
+  margin-top: 15px;
+  font-weight: bold;
 }
+/* end header section */
+
+/* start main section 1 */
+
+.main-ki{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;
+    padding: 10px;  
+    padding-top: 50px;
+}
+.main-containt{
+ padding-right: 100px;
+ align-items: center;
+}
+.person-img{
+  width: 300px;
+}
+/* end main section 1 */
+
+
+/* main section 2 */
+.middle{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.middle-con{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  margin-top: 10px;
+}
+.jp{
+  margin-top: 10px;
+}
+.jimi{
+  margin-top: 10px;
+}
+/* end main section 2 */
+
 
